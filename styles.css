@@ -1,0 +1,406 @@
+body {
+  background-color: #fff;
+}
+
+nav {
+  margin: auto;
+  background-color: #1d2b34; 
+  color: #fff;
+  text-align: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  border: 1px solid black;
+  z-index: 1;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #fff;
+}
+nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+header {
+  position: static;
+  width: 89%;
+  height: 95px;
+  padding: 80px;
+  margin: 0 0;
+  text-align: left;
+  background-color: #fff;
+  color: #1d2b34;
+  z-index: -1;
+  font-family: 'Zen Loop', cursive;
+  font-size: 35px;
+  border: 1px transparent black;
+  box-shadow: 0px 4px #EE7A2C;
+}
+
+h2 { 
+  font-size: 30px;
+  border-bottom: 2px solid #EE7A2C;
+}
+
+.logo {
+  color: #EE7A2C;
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 5px 10px;
+}
+
+.color-panel {
+  display: inline-grid;
+  width: 19.2%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 500px;
+  align-content: space-between;
+}
+
+.gunmetal {
+  background-color: #1D2B34;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: transform 1s;
+}
+
+.gunmetal:hover {
+  transform: scale(1.1);
+}
+
+.tuscany {
+  background-color: #CCA4A3;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: transform 1s;
+}
+
+.tuscany:hover {
+  transform: scale(1.1);
+}
+
+.charcoal {
+  background-color: #2B414F;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: transform 1s;
+}
+
+.charcoal:hover {
+  transform: scale(1.1);
+}
+
+.vegas-gold {
+  background-color: #DFC06B;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: transform 1s;
+}
+
+.vegas-gold:hover {
+  transform: scale(1.1);
+}
+
+.olivine {
+  background-color: #A2B177;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: transform 1s;
+}
+
+.olivine:hover {
+  transform: scale(1.1);
+}
+
+#fonts:link {
+  color: #1D2B34;
+  text-decoration: none;
+}
+
+#fonts:visited {
+  color: #2B414F;
+}
+
+#fonts:hover {
+  color: #cca4a3;
+}
+
+#fonts:active {
+  color: #a2b177;
+}
+
+#colors:link {
+  color: #1D2B34;
+  text-decoration: none;
+}
+
+#colors:visited {
+  color: #2B414F;
+}
+
+#colors:hover {
+  color: #cca4a3;
+}
+
+#colors:active {
+  color: #a2b177;
+}
+
+.font-panel {
+  display: grid;
+  grid-template-columns: 500px auto auto;
+  font-size: 20px;  
+}
+
+.font-sample {
+  text-align: right;
+}
+
+.patrick-hand {
+  font-family: 'Patrick Hand', cursive;
+  background-color: #F5F4F6;
+}
+
+.titillum-web {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #EDE8EA;
+}
+
+.khula {
+  font-family: 'Khula', sans-serif;
+  background-color: #F5F4F6;
+}
+
+.gruppo {
+  font-family: 'Gruppo', cursive;
+  background-color: #EDE8EA;
+}
+
+.cutive-mono {
+  font-family: 'Cutive Mono', monospace;
+  background-color: #F5F4F6;
+}
+
+.cousine {
+  font-family: 'Cousine', monospace;
+  background-color: #EDE8EA;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F5F4F6;
+}
+
+.arima-madurai {
+  font-family: 'Arima Madurai', cursive;
+  background-color: #EDE8EA;
+}
+
+.oswald {
+  font-family: 'Oswald', sans-serif;
+  background-color: #F5F4F6;
+}
+
+.indie-flower {
+  font-family: 'Indie Flower', cursive;
+  background-color: #EDE8EA;
+}
+
+.typography-container {
+  text-align: left;
+}
+
+.typography-label {
+  display: inline-grid;
+  grid-template-columns: 250px auto;
+  font-family: 'Gruppo', cursive;
+  width: 100%;
+}
+
+.typography-size {
+  font-size: 14px;
+  width: 20%;
+}
+
+.Headline-H1 {
+  font-size: 96px;
+  font-weight: lighter;
+  border: 1px dotted #EE7A2C;
+}
+
+.Headline-H2 {
+  font-size: 60px;
+  font-weight: lighter;
+  border-left: 1px dotted #EE7A2C;
+  border-right: 1px dotted #EE7A2C;
+}
+
+.Headline-H3 {
+  font-size: 48px;
+  font-weight: normal;
+  border: 1px dotted #EE7A2C;
+}
+
+.Headline-H4 {
+  font-size: 48px;
+  font-weight: normal;
+  border-left: 1px dotted #EE7A2C;
+  border-right: 1px dotted #EE7A2C;
+  }
+
+.Headline-H5 {
+  font-size: 34px;
+  font-weight: medium;
+  border: 1px dotted #EE7A2C;
+}
+
+.Headline-H6 {
+  font-size: 20px;
+  font-weight: medium;
+  border-left: 1px dotted #EE7A2C;
+  border-right: 1px dotted #EE7A2C;
+}
+
+.Subtitle-1 {
+  font-size: 16px;
+  font-weight: medium;
+  border: 1px dotted #EE7A2C;
+}
+
+.Subtitle-2 {
+  font-size: 14px;
+  font-weight: bold;
+  border-left: 1px dotted #EE7A2C;
+  border-right: 1px dotted #EE7A2C;
+}
+
+.Body-1 {
+  font-size: 16px;
+  font-weight: normal;
+  border: 1px dotted #EE7A2C;
+}
+
+.Body-2 {
+  font-size: 14px;
+  font-weight: bold;
+  border-left: 1px dotted #EE7A2C;
+  border-right: 1px dotted #EE7A2C;
+  }
+
+.Button {
+  font-size: 14px;
+  font-weight: normal;
+  border: 1px dotted #EE7A2C;
+}
+
+.Caption {
+  font-size: 12px;
+  font-weight: bold;
+  border-left: 1px dotted #EE7A2C;
+  border-right: 1px dotted #EE7A2C;
+  border-bottom: 1px dotted #EE7A2C;
+}
+
+.shapes-panel {
+  color: white;
+  border: none;
+  padding: 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.rounded-edges {
+  background-color: #1D2B34;
+  border-radius: 25%;
+  height: 100px;
+  width: 100px;
+  transition: transform 1s;
+}
+
+.rounded-edges:hover{
+  transform: scale(1.1);
+}
+
+.cut-edges {
+  height: 100px;
+  width: 100px;
+  background: #CCA4A3;
+  position: relative;
+  z-index: -1;
+}
+
+.cut-edges:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 100px solid white;
+  border-left: 100px solid #CCA4A3;
+  width: 0px;
+  z-index: -1;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: #2B414F;
+  border-radius: 50%;
+  transition: transform 1s;
+}
+
+.circle:hover {
+  transform: scale(1.1);
+}
+
+.trapezoid {
+	border-bottom: 200px solid #DFC06B;
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+	height: 0;
+	width: 250px;
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.trapezoid:hover {
+  transform: scale(1.1);
+}
+
+.triangle {
+	width: 0px;
+	height: 0px;
+	border-left: 125px solid white;
+	border-right: 125px solid white;
+	border-bottom: 200px solid #A2B177;
+  padding: 0px;
+  transition: transform 1s;
+}
+
+.triangle:hover {
+  transform: rotate(-90deg);
+}
+
+.credits {
+  border-top: 2px solid #EE7A2C;
+  font-family: 'Gruppo', cursive;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-align: right;
+}
